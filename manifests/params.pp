@@ -8,7 +8,7 @@ class apache::params {
   'RedHat': {
     $install_name = 'httpd'
   }
-  'Debian' {
+  'Debian': {
     $install_name = 'apache2'
   }
  }
