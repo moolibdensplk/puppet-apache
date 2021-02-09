@@ -6,7 +6,7 @@
 #   include apache
 class apache (
   String $install_name,
-  String $install_string,
+  String $install_ensure,
 ) {
   include apache::install
 }
